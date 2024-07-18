@@ -9,14 +9,15 @@ However, hope was not lost. A valiant knight named Sir Scriptalot had been tirel
 This game requires two players who will take on the roles of Malwareus and Sir Scriptalot, respectively. The players will be engaged in a pair programming exercise where they create functions in different programming languages.
 
 #Player One: 
-Malwareus (Evil Wizard) Malwareus must implement a poison() function in any programming language. This function takes a string and a number and outputs a corrupted string by altering every other nth character in turn. The first nth character should be capitalized and wrapped in hyphens -, and every other should be not capitalized but wrapped in asterisks *.
+Malwareus (Evil Wizard) 
+Malwareus must implement a poison() function in any programming language. This function takes a string and a number and outputs a corrupted string by altering every other nth character in turn. The first nth character should be capitalized and wrapped in hyphens -, and every other should be not capitalized but wrapped in asterisks *.
 
 #Example:
 
 poison("string", 3) => "st-R-inG"
 
-#Player Two: 
-Sir Scriptalot (Valiant Knight) Sir Scriptalot must implement a potion() function in a different programming language than Malwareus. This function takes the corrupted string and the number, returning it to its original form.
+#Player Two: Sir Scriptalot (Valiant Knight) 
+Sir Scriptalot must implement a potion() function in a different programming language than Malwareus. This function takes the corrupted string and the number, returning it to its original form.
 
 #Example:
 
