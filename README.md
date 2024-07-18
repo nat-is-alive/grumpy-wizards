@@ -14,14 +14,14 @@ Malwareus must implement a poison() function in any programming language. This f
 
 #Example:
 
-poison("string", 3) => "st-R-inG"
+poison("string", 3) => "st-R-in'*G*'"
 
 #Player Two: Sir Scriptalot (Valiant Knight) 
-Sir Scriptalot must implement a potion() function in a different programming language than Malwareus. This function takes the corrupted string and the number, returning it to its original form.
+Sir Scriptalot must implement a potion() function in a different programming language than Malwareus. This function takes the corrupted string, returning it to its original form.
 
 #Example:
 
-potion("st-R-inG", 3) => “st-R-inG"
+potion("st-R-in'*G*'" => “string"
 
 #Bonus Task 
 For a truly integrated experience, Malwareus and Sir Scriptalot can work together to make their functions interoperable. This can be achieved through a shared database, text file, or an API endpoint.
